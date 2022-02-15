@@ -1,0 +1,5 @@
+1. Git Repository 복사 이동하기 
+git clone --mirror 기존 주소 
+기존 이름.git 파일 생성됨 
+git remote set-url --push origin 신규 주소
+git push --mirror 
