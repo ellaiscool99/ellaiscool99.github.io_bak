@@ -1,0 +1,7 @@
+*첨부 파일에 콤마(,) 가 있었을 때 chrome이나 edge 브라우저에서 에러
+
+ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION
+
+response.setHeader("Content-Disposition", "attachment;filename=\""+file_name + "\";");
+
+https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Content-Disposition
